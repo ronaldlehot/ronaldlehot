@@ -109,7 +109,7 @@
         <div class="row">
           <div class="col-md-4 mb-3">
             <div class="card" data-aos="flip-left" data-aos-delay="200">
-              <img src="project/istockphoto-1051243766-170667a.jpg" class="card-img-top" alt="project 1 " />
+              <img src="Project/istockphoto-1051243766-170667a.jpg" class="card-img-top" alt="project 1 " />
               <div class="card-body">
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
               </div>
@@ -117,7 +117,7 @@
           </div>
           <div class="col-md-4 mb-3">
             <div class="card" data-aos="flip-up" data-aos-delay="300">
-              <img src="project/photo-1512455011254-e2db8db4ef22.jpg" class="card-img-top" alt="project 2 " />
+              <img src="Project/photo-1512455011254-e2db8db4ef22.jpg" class="card-img-top" alt="project 2 " />
               <div class="card-body">
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
               </div>
@@ -125,7 +125,7 @@
           </div>
           <div class="col-md-4 mb-3">
             <div class="card" data-aos="flip-left" data-aos-delay="400">
-              <img src="project/photo-1618051510237-5182d6dc332c.jpg" class="card-img-top" alt="project 3 " />
+              <img src="Project/photo-1618051510237-5182d6dc332c.jpg" class="card-img-top" alt="project 3 " />
               <div class="card-body">
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
               </div>
@@ -259,10 +259,6 @@
               <strong>Terimakasih!</strong> Pesan anda sudah kami terimah.
               <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
             </div>
-            <div class="alert alert-success alert-dismissible fade show d-none my-alert2" role="alert">
-              <strong>Gagal!</strong> Pesan yang anda kirim gagal .
-              <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
-            </div>
             <form name="contact-form">
               <div class="mb-3">
                 <label for="name" class="form-label">Nama Lengkap</label>
@@ -353,8 +349,6 @@
             console.log("Success!", response);
           })
           .catch((error) => {
-            //tampilan kalo gagal dalam mengirim
-            myAlert.classList.toggle("d-none");
             console.error("Error!", error.message);
           });
       });
