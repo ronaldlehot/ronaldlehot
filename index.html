@@ -10,6 +10,12 @@
 
     <!-- boostrap icon heart -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css" />
+
+    <!-- AOS   -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <!-- Akhir AOS  -->
+
     <!-- css saya  -->
     <link rel="stylesheet" href=" style.css" />
 
@@ -32,9 +38,14 @@
               <a class="nav-link" href="#About">About</a>
             </li>
             <li class="nav-item">
+              <a class="nav-link" href="#Project">Project</a>
+            </li>
+            <li class="nav-item">
               <a class="nav-link" href="#Gallery">Gallery</a>
             </li>
-
+            <li class="nav-item">
+              <a class="nav-link" href="#Hoby">Hoby</a>
+            </li>
             <li class="nav-item">
               <a class="nav-link" href="#Contact">Contact</a>
             </li>
@@ -46,9 +57,9 @@
 
     <!-- Jumbotron -->
     <section class="jumbotron text-center">
-      <img src="gambar/baru3.jpeg" alt="Fransisco R Lehot " width="200" class="rounded-circle img-thumbnail" />
-      <h1 class="display-4">Fransisco R Lehot</h1>
-      <p class="lead">Mahasiswa Ilmu Komputer UNDANA</p>
+      <img src="gambar/WhatsApp Image 2021-12-24 at 12.51.07 (2).jpeg" alt="Fransisco R Lehot " width="200" class="rounded-circle img-thumbnail" />
+      <h1 class="display-4"></h1>
+      <p class="lead"></p>
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
         <path
           fill="#ffffff"
@@ -58,20 +69,23 @@
       </svg>
     </section>
     <!-- Akhir Jumbotron -->
+
     <!-- About  -->
     <section id="About">
-      <div class="container">
+      <div class="container" data-aos="fade-down">
         <div class="row text-center mb-3">
           <div class="rol">
             <h2>About me</h2>
           </div>
         </div>
         <div class="row justify-content-center fs-5 text-center">
-          <div class="col-md-4">
+          <div class="col-md-4" data-aos="zoom-in-right" data-aos-duration="2000">
             Nama lengkap saya adalah Fransisco Ronaldo Lehot dan saya sekarang berumur 19 tahun.Saya memiliki kondisi kesehatan yang baik.Selain berkomunikasi dengan bahasa Indonesia yang baik dan sopan,saya juga sedikit mengerti dalam
             bahasa inggris
           </div>
-          <div class="col-md-4">Latar pendidikan,saya baru mahasiswa semester 3 di Universitas Nusa Cendana.Saya mempunyai sifat yang ramah dan sopan terhadap sesama</div>
+          <div class="col-md-4" data-aos="zoom-in-left" data-aos-duration="2000" data-aos-delay="200">
+            Latar pendidikan,saya baru mahasiswa semester 4 di Universitas Nusa Cendana Kupang,Nusa Tenggara Timur.Saya mempunyai sifat yang ramah dan sopan terhadap sesama
+          </div>
         </div>
       </div>
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
@@ -84,34 +98,34 @@
     </section>
     <!-- Akhir About  -->
 
-    <!-- Gallery -->
-    <section id="Gallery">
+    <!-- Project-->
+    <section id="Project">
       <div class="container">
         <div class="row text-center mb-3">
           <div class="col">
-            <h2>Gallery me</h2>
+            <h2>Project me</h2>
           </div>
         </div>
         <div class="row">
           <div class="col-md-4 mb-3">
-            <div class="card">
-              <img src="Gallery/1.jpg" class="card-img-top" alt="Gallery 1 " />
+            <div class="card" data-aos="flip-left" data-aos-delay="200">
+              <img src="project/istockphoto-1051243766-170667a.jpg" class="card-img-top" alt="project 1 " />
               <div class="card-body">
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
               </div>
             </div>
           </div>
           <div class="col-md-4 mb-3">
-            <div class="card">
-              <img src="Gallery/2.jpg" class="card-img-top" alt="Gallery 2 " />
+            <div class="card" data-aos="flip-up" data-aos-delay="300">
+              <img src="project/photo-1512455011254-e2db8db4ef22.jpg" class="card-img-top" alt="project 2 " />
               <div class="card-body">
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
               </div>
             </div>
           </div>
           <div class="col-md-4 mb-3">
-            <div class="card">
-              <img src="Gallery/3.jpg" class="card-img-top" alt="Gallery 3 " />
+            <div class="card" data-aos="flip-left" data-aos-delay="400">
+              <img src="project/photo-1618051510237-5182d6dc332c.jpg" class="card-img-top" alt="project 3 " />
               <div class="card-body">
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
               </div>
@@ -127,33 +141,147 @@
         ></path>
       </svg>
     </section>
-    <!-- Akhir Gallery -->
+    <!-- Akhir Project-->
+
+    <!-- Gallery -->
+    <sec id="Gallery">
+      <div class="container">
+        <div class="row text-center mb-3">
+          <div class="col">
+            <h2>Gallery me</h2>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-md-3 mb-4" data-aos="flip-up" data-aos-delay="100">
+            <a href="">
+              <img src="Gallery/DSC_0079.JPG" alt="Gallery 1" class="img-fluid Gallery-img" />
+            </a>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-md-3 mb-4" data-aos="flip-up" data-aos-delay="200">
+            <a href="">
+              <img src="Gallery/DSC_0129.JPG" alt="Gallery 2" class="img-fluid Gallery-img" />
+            </a>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-md-3 mb-4" data-aos="flip-up" data-aos-delay="300">
+            <a href="">
+              <img src="Gallery/DSC_0130.JPG" alt="Gallery 3" class="img-fluid Gallery-img" />
+            </a>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-md-3 mb-4" data-aos="flip-up" data-aos-delay="400">
+            <a href="">
+              <img src="Gallery/DSC_0132.JPG" alt="Gallery 4" class="img-fluid Gallery-img" />
+            </a>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-md-3 mb-4" data-aos="flip-up" data-aos-delay="500">
+            <a href="">
+              <img src="Gallery/DSC_0134.JPG" alt="Gallery 5" class="img-fluid Gallery-img" />
+            </a>
+          </div>
+        </div>
+      </div>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path
+          fill="#a2d9ff"
+          fill-opacity="1"
+          d="M0,256L48,261.3C96,267,192,277,288,277.3C384,277,480,267,576,234.7C672,203,768,149,864,154.7C960,160,1056,224,1152,234.7C1248,245,1344,203,1392,181.3L1440,160L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
+        ></path>
+      </svg>
+    </sec>
+
+    <!-- Akhir Gallery  -->
+
+    <!--  hoby   -->
+    <section id="Hoby">
+      <div class="container">
+        <div class="row text-center mb-3">
+          <div class="col">
+            <h2>My hoby</h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-4 mb-3">
+            <div class="card" data-aos="flip-left" data-aos-delay="200">
+              <img src="hoby/istockphoto-1291678684-170667a.jpg" class="card-img-top" alt="hoby 1 " />
+              <div class="card-body">
+                <p class="card-text">Bermain Game.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-3">
+            <div class="card" data-aos="flip-up" data-aos-delay="300">
+              <img src="hoby/istockphoto-492629987-170667a.jpg" class="card-img-top" alt="hoby 2 " />
+              <div class="card-body">
+                <p class="card-text">Bermain Basket.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-3">
+            <div class="card" data-aos="flip-left" data-aos-delay="400">
+              <img src="hoby/istockphoto-901788334-170667a.jpg" class="card-img-top" alt="hoby 3 " />
+              <div class="card-body">
+                <p class="card-text">Bermain Sepakbola.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path
+          fill="#ffffff"
+          fill-opacity="1"
+          d="M0,32L40,58.7C80,85,160,139,240,170.7C320,203,400,213,480,234.7C560,256,640,288,720,277.3C800,267,880,213,960,170.7C1040,128,1120,96,1200,122.7C1280,149,1360,235,1400,277.3L1440,320L1440,320L1400,320C1360,320,1280,320,1200,320C1120,320,1040,320,960,320C880,320,800,320,720,320C640,320,560,320,480,320C400,320,320,320,240,320C160,320,80,320,40,320L0,320Z"
+        ></path>
+      </svg>
+    </section>
+    <!-- Akhir hoby -->
 
     <!-- Contact -->
 
     <section id="Contact">
       <div class="container">
-        <div class="row text-center mb-3">
+        <div class="row text-center mb-4">
           <div class="col">
             <h2>Contact Me</h2>
           </div>
         </div>
         <div class="row justify-content-center">
           <div class="col-md-6">
-            <form>
+            <!-- peringatan = alert di contact untuk nanti dikirim oleh pengguna  -->
+            <div class="alert alert-success alert-dismissible fade show d-none my-alert" role="alert">
+              <strong>Terimakasih!</strong> Pesan anda sudah kami terimah.
+              <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+            </div>
+            <div class="alert alert-success alert-dismissible fade show d-none my-alert2" role="alert">
+              <strong>Gagal!</strong> Pesan yang anda kirim gagal .
+              <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+            </div>
+            <form name="contact-form">
               <div class="mb-3">
                 <label for="name" class="form-label">Nama Lengkap</label>
-                <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="name" />
+                <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="name" name="nama" />
               </div>
               <div class="mb-3">
                 <label for="email" class="form-label">Email </label>
-                <input type="email" class="form-control" id="email" aria-describedby="email" />
+                <input type="email" class="form-control" id="email" aria-describedby="email" name="email" />
               </div>
               <div class="mb-3">
                 <label for="pesan" class="form-label">Pesan</label>
-                <textarea class="form-control" id="pesan" rows="3"></textarea>
+                <textarea class="form-control" id="pesan" rows="3" name="pesan"></textarea>
               </div>
-              <button type="kirim" class="btn btn-primary">Kirim</button>
+              <button type="kirim" class="btn btn-primary btn-kirim">Kirim</button>
+              <!-- untuk loading di contact -->
+              <button class="btn btn-primary btn-loading d-none" type="button" disabled>
+                <span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
+                Loading...
+              </button>
             </form>
           </div>
         </div>
@@ -173,6 +301,63 @@
       <p>created with <i class="bi bi-heart-fill text-danger"></i> by <a href="https://www.instagram.com/?hl=id" class="text-white fw-bold">Fransisco Ronaldo Lehot</a></p>
     </footer>
     <!-- Akhir footer -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <!-- AOS -->
+    <script>
+      AOS.init({});
+    </script>
+    <!-- Akhir aos -->
+
+    <!-- GSAP -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.0/gsap.min.js"></script>
+    <!-- plugin -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.0/TextPlugin.min.js"></script>
+
+    <script>
+      gsap.registerPlugin(TextPlugin);
+      gsap.to(".display-4", { duration: 2, delay: 1.5, text: "Fransisco R Lehot" });
+      gsap.to(".lead", { duration: 2, delay: 3.2, text: "Mahasiswa Ilmu Komputer UNDANA" });
+      gsap.from(".jumbotron img", { duration: 1, rotateY: 360, opacity: 0 });
+      gsap.from(".navbar", { duration: 2, y: -100, opacity: 0, ease: "bounce.out" });
+      // gsap.from(".display-4", { duration: 1, x: -50, opacity: 0, delay: 1, ease: "back.out(2)" });
+    </script>
+
+    <!-- Akhir GSAP -->
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+    <!-- Google Form for contact -->
+    <script>
+      const scriptURL = "https://script.google.com/macros/s/AKfycbz_FG_8mcignds0jMg_Zg5Wl-A83Fwjc7S5PdWEe9OV6yuXvSucdDMSMqE6vwBVXvg/exec";
+      const form = document.forms["contact-form"];
+      const btnKirim = document.querySelector(".btn-kirim");
+      const btnLoading = document.querySelector(".btn-loading");
+      const myAlert = document.querySelector(".my-alert");
+      const myGagal = document.querySelector(".my-gagal");
+
+      form.addEventListener("submit", (e) => {
+        e.preventDefault();
+        // ketika tombol kirim di klik
+        // tampilkan tombol loading,hilangkan tombol kirim
+        btnLoading.classList.toggle("d-none");
+        btnKirim.classList.toggle("d-none");
+        fetch(scriptURL, { method: "POST", body: new FormData(form) })
+          .then((response) => {
+            // tampilkan tombol kirim,hilangkan tombol loading
+            btnLoading.classList.toggle("d-none");
+            btnKirim.classList.toggle("d-none");
+            //tampilkan alert/peringatan pada saat sudah di kirim
+            myAlert.classList.toggle("d-none");
+            //reset form setelah dikirim oleh pembaca
+            form.reset();
+            console.log("Success!", response);
+          })
+          .catch((error) => {
+            //tampilan kalo gagal dalam mengirim
+            myAlert.classList.toggle("d-none");
+            console.error("Error!", error.message);
+          });
+      });
+    </script>
   </body>
 </html>

@@ -2,10 +2,22 @@
   padding-top: 6rem;
   background-color: #b1cefd;
 }
-#Gallery {
+#Project {
   background-color: #b1cefd;
 }
 
 section {
   padding-top: 5rem;
+}
+
+.Gallery {
+  width: 100%;
+}
+
+#Gallery .row > * {
+  padding: 0;
+}
+
+#Hoby {
+  background-color: #b1cefd;
 }
