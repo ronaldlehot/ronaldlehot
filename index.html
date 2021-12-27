@@ -133,6 +133,39 @@
           </div>
         </div>
       </div>
+
+      <!-- Anime 3D -->
+      <sectio id=" MY-anime">
+        <div class="container">
+          <div class="row text-center mb-3">
+            <div class="col">
+              <h2>My Favorite Anime</h2>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-6 col-lg-4 mb-3"></div>
+            <div class="anime-box">
+              <h4 class="anime-name">Anime Naruto</h4>
+              <img src="anime/images (3).png" alt="Naruto  " class="anime-img" />
+              <a href="#" class="btn btn-light anime-detail-button">show Details</a>
+            </div>
+            <div class="col-md-6 col-lg-4 mb-3"></div>
+            <div class="anime-box">
+              <h4 class="anime-name">Anime One Piece</h4>
+              <img src="anime/one piece (1).png" alt="one piece  " class="anime-img" />
+              <a href="#" class="btn btn-light anime-detail-button">show Details</a>
+            </div>
+            <div class="col-md-6 col-lg-4 mb-3"></div>
+            <div class="anime-box">
+              <h4 class="anime-name">Anime One Punch Man</h4>
+              <img src="anime/one punch man (1).png" alt="one punch man  " class="anime-img" />
+              <a href="#" class="btn btn-light anime-detail-button">show Details</a>
+            </div>
+          </div>
+        </div>
+      </sectio>
+      <!-- Akhir anime 3d -->
+
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
         <path
           fill="#ffffff"
@@ -353,5 +386,19 @@
           });
       });
     </script>
+
+    <!-- vanila tilt min untuk 3d -->
+
+    <script type="text/javascript" src="3D.js"></script>
+    <script type="text/javascript">
+      VanillaTilt.init(document.querySelectorAll(".anime-box"), {
+        max: 25,
+        speed: 400,
+      });
+
+      //It also supports NodeList
+      //VanillaTilt.init(document.querySelectorAll(".your-element"));
+    </script>
+    <!-- Akhir dari tilt min 3d -->
   </body>
 </html>
