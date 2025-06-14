@@ -5,10 +5,10 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/namakamu">
+  <a href="https://github.com/ronaldlehot">
     <img src="https://komarev.com/ghpvc/?username=namakamu&label=Profile%20views&color=0e75b6&style=flat" alt="Profile views" />
   </a>
-  <a href="https://github.com/namakamu?tab=followers">
+  <a href="https://github.com/ronaldlehot?tab=followers">
     <img src="https://img.shields.io/github/followers/namakamu?label=Followers&style=social" />
   </a>
 </p>
