@@ -24,6 +24,12 @@
 
 ---
 
+
+# snake
+## 🐍 GitHub Activity Snake
+
+![snake_gif](https://github.com/ronaldlehot/snake/blob/output/github-snake-dark.svg)
+
 ## 🛠️ Tech Stack
 
 ```bash
@@ -32,9 +38,3 @@
 🛠️ Back-End:       Node.js, CodeIgniter, Laravel
 🧰 Tools:          Git, VSCode, Postman, Figma, Docker
 🗄️ Databases:      MySQL, PostgreSQL, MongoDB, SQLite
-
-
-# snake
-## 🐍 GitHub Activity Snake
-
-![snake_gif](https://github.com/ronaldlehot/snake/blob/output/github-snake-dark.svg)
