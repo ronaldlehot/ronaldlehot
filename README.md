@@ -29,7 +29,6 @@ const ronaldo = {
   currentlyBuilding: ["Satu Data NTT", "Dashboard Pimpinan"],
   currentlyLearning: "new frameworks & languages",
   askMeAbout: ["Web Dev", "APIs", "Databases", "anything tech"],
-  funFact: "I debug more than I sleep",
   reachMe: {
     email: "ronaldlehot@gmail.com",
     instagram: "@ronaldlehot",
