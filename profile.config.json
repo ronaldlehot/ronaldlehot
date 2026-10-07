@@ -86,11 +86,22 @@
   "techStack": [
     "JavaScript",
     "TypeScript",
+    "PHP",
+    "HTML5",
+    "CSS3",
     "React",
     "Next.js",
+    "Tailwind",
+    "Bootstrap",
+    "Node.js",
     "Laravel",
-    "PHP",
-    "MySQL"
+    "CodeIgniter",
+    "Git",
+    "Docker",
+    "Figma",
+    "MySQL",
+    "PostgreSQL",
+    "MongoDB"
   ],
   "links": [
     {

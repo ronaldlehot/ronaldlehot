@@ -39,6 +39,18 @@ function renderProjects(projects) {
   ].join("\n");
 }
 
+const ICONS = {
+  javascript: "js", typescript: "ts", php: "php", html5: "html", css3: "css", react: "react",
+  "next.js": "nextjs", tailwind: "tailwind", bootstrap: "bootstrap", "node.js": "nodejs",
+  laravel: "laravel", codeigniter: "codeigniter", git: "git", docker: "docker", figma: "figma",
+  mysql: "mysql", postgresql: "postgres", mongodb: "mongodb", sqlite: "sqlite", postman: "postman", vscode: "vscode"
+};
+
+function renderTechIcons(stack) {
+  const ids = stack.map((item) => ICONS[item.toLowerCase()]).filter(Boolean);
+  return `<p align="center">\n  <img alt="Tech stack" src="https://skillicons.dev/icons?i=${ids.join(",")}&theme=dark&perline=9">\n</p>`;
+}
+
 function extractActivity(readme) {
   const startIndex = readme.indexOf(ACTIVITY_START);
   const endIndex = readme.indexOf(ACTIVITY_END);
@@ -80,29 +92,19 @@ export async function generateProfileReadme({ config, manifest, readmePath }) {
 ${renderLinks(config.links)}
 </p>
 
-## About Me
+<p align="center">
+  <img alt="Typing intro" src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=18&pause=1200&color=22D3EE&center=true&vCenter=true&width=640&lines=${encodeURIComponent(config.profile.headline)}+from+${encodeURIComponent(config.profile.location)};Building+modern+%26+responsive+web+apps;I+debug+more+than+I+sleep">
+</p>
+
+## 👤 About Me
 
 ${about}
 
-## Current Focus
+## 🛠️ Tech Stack
 
-${renderFocus(config.focus)}
+${renderTechIcons(config.techStack)}
 
-## Featured Work
-
-${renderProjects(config.projects)}
-
-…and many more — see the [portfolio](https://ronaldlehot.github.io/web-portofolio/) and [all repositories](https://github.com/ronaldlehot?tab=repositories).
-
-## Research Direction
-
-${config.research.narrative}
-
-## Tech Stack
-
-${techStack}
-
-## Contribution Snake
+## 🐍 Contribution Snake
 
 <p align="center">
   <picture>
@@ -111,6 +113,12 @@ ${techStack}
     <img alt="Contribution graph with a snake eating the contributions" src="https://raw.githubusercontent.com/${config.profile.username}/${config.profile.username}/output/github-contribution-grid-snake.svg" width="100%">
   </picture>
 </p>
+
+## 🚀 Featured Work
+
+${renderProjects(config.projects)}
+
+…and many more — see the [portfolio](https://ronaldlehot.github.io/web-portofolio/) and [all repositories](https://github.com/ronaldlehot?tab=repositories).
 ${activitySection}
 ---
 
