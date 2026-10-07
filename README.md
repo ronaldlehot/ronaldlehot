@@ -52,18 +52,6 @@ const ronaldo = {
   </picture>
 </p>
 
-## 🚀 Featured Work
-
-| Project | Focus | Why it matters |
-| --- | --- | --- |
-| [**Satu Data NTT**](https://github.com/ronaldlehot) | Portal Satu Data Provinsi NTT | Portal Satu Data for Nusa Tenggara Timur Province, bringing regional government data together in one place. |
-| [**Dashboard Pimpinan**](https://github.com/ronaldlehot) | Leadership dashboard | A dashboard that gives leaders a clear summary of key data for monitoring and decision making. |
-| [**Sistem Keuangan**](https://github.com/ronaldlehot/Sistem_Keuangan) | Laravel + Filament finance system | A web finance system with transaction management, financial reports, and an interactive dashboard. |
-| [**SPK Wisata Bajawa**](https://github.com/ronaldlehot/spk-rekomendasi-wisata-) | Tourism recommendation (SMART) | A decision support system that recommends the best tourist spots in Bajawa using the SMART method. |
-| [**Hibah & Sosial**](https://github.com/ronaldlehot) | Grant and social aid information system | An information system for managing grant and social aid: recipient verification, disbursement, and monitoring. |
-| [**Inventaris Gereja**](https://github.com/ronaldlehot) | Church inventory management | An inventory system that tracks church assets, incoming and outgoing items, and stock reports. |
-
-…and many more — see the [portfolio](https://ronaldlehot.github.io/web-portofolio/) and [all repositories](https://github.com/ronaldlehot?tab=repositories).
 
 ## Recent Activity
 

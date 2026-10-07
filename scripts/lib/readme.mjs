@@ -135,11 +135,6 @@ ${renderTechIcons(config.techStack)}
   </picture>
 </p>
 
-## 🚀 Featured Work
-
-${renderProjects(config.projects)}
-
-…and many more — see the [portfolio](https://ronaldlehot.github.io/web-portofolio/) and [all repositories](https://github.com/ronaldlehot?tab=repositories).
 ${activitySection}
 ---
 
