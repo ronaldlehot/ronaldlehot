@@ -36,12 +36,6 @@ const ronaldo = {
 };
 ```
 
-## 🛠️ Tech Stack
-
-<p align="center">
-  <img alt="Tech stack" src="https://skillicons.dev/icons?i=js,ts,php,html,css,react,nextjs,tailwind,bootstrap,nodejs,laravel,codeigniter,git,docker,figma,mysql,postgres,mongodb&theme=dark&perline=9">
-</p>
-
 ## 🐍 Contribution Snake
 
 <p align="center">

@@ -121,10 +121,6 @@ ${renderLinks(config.links)}
 
 ${renderAboutCode(config)}
 
-## 🛠️ Tech Stack
-
-${renderTechIcons(config.techStack)}
-
 ## 🐍 Contribution Snake
 
 <p align="center">
