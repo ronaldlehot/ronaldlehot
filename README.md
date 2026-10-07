@@ -20,12 +20,22 @@
 
 ## 👤 About Me
 
-👋 Hi, I am **Ronaldo** — a web developer from Kupang, NTT. I turn data and ideas into products people actually use, from the **Satu Data NTT** provincial portal to dashboards that help leaders decide.
-
-🌱 Currently learning new frameworks and sharpening my React, Next.js, and Laravel skills. Ask me about **Web Dev, APIs, Databases**, or anything tech-related.
-
-⚡ Fun fact: I debug more than I sleep.  
-📫 Reach me: [ronaldlehot@gmail.com](mailto:ronaldlehot@gmail.com) or Instagram [@ronaldlehot](https://instagram.com/ronaldlehot)
+```js
+const ronaldo = {
+  name: "Fransisco Ronaldo Lehot",
+  role: "Web Developer",
+  from: "Kupang, NTT, Indonesia",
+  education: "B.Sc. Computer Science, Universitas Nusa Cendana (2024)",
+  currentlyBuilding: ["Satu Data NTT", "Dashboard Pimpinan"],
+  currentlyLearning: "new frameworks & languages",
+  askMeAbout: ["Web Dev", "APIs", "Databases", "anything tech"],
+  funFact: "I debug more than I sleep",
+  reachMe: {
+    email: "ronaldlehot@gmail.com",
+    instagram: "@ronaldlehot",
+  },
+};
+```
 
 ## 🛠️ Tech Stack
 

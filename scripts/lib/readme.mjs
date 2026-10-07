@@ -51,6 +51,28 @@ function renderTechIcons(stack) {
   return `<p align="center">\n  <img alt="Tech stack" src="https://skillicons.dev/icons?i=${ids.join(",")}&theme=dark&perline=9">\n</p>`;
 }
 
+function renderAboutCode(config) {
+  const fence = "```";
+  return [
+    `${fence}js`,
+    "const ronaldo = {",
+    `  name: "${config.profile.name}",`,
+    `  role: "${config.profile.headline}",`,
+    `  from: "Kupang, NTT, Indonesia",`,
+    `  education: "B.Sc. Computer Science, ${config.profile.affiliation} (2024)",`,
+    `  currentlyBuilding: ["Satu Data NTT", "Dashboard Pimpinan"],`,
+    `  currentlyLearning: "new frameworks & languages",`,
+    `  askMeAbout: ["Web Dev", "APIs", "Databases", "anything tech"],`,
+    `  funFact: "I debug more than I sleep",`,
+    "  reachMe: {",
+    `    email: "ronaldlehot@gmail.com",`,
+    `    instagram: "@ronaldlehot",`,
+    "  },",
+    "};",
+    fence
+  ].join("\n");
+}
+
 function extractActivity(readme) {
   const startIndex = readme.indexOf(ACTIVITY_START);
   const endIndex = readme.indexOf(ACTIVITY_END);
@@ -98,7 +120,7 @@ ${renderLinks(config.links)}
 
 ## 👤 About Me
 
-${about}
+${renderAboutCode(config)}
 
 ## 🛠️ Tech Stack
 
