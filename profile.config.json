@@ -1,0 +1,118 @@
+{
+  "$schema": "./profile.schema.json",
+  "profile": {
+    "name": "Fransisco Ronaldo Lehot",
+    "username": "ronaldlehot",
+    "headline": "Web Developer",
+    "affiliation": "Universitas Nusa Cendana",
+    "location": "Kupang, Indonesia",
+    "status": "Learning / Building / Shipping",
+    "about": [
+      "I build modern, responsive, and user-friendly web applications with React, Next.js, and Laravel.",
+      "I debug more than I sleep, and I keep sharpening my skills to deliver impactful digital experiences."
+    ]
+  },
+  "research": {
+    "primary": "Web Development",
+    "direction": "Modern responsive web apps",
+    "themes": "React / Laravel / APIs / Databases",
+    "narrative": "I am interested in building fast, accessible, and maintainable web applications, from clean user interfaces to reliable APIs and databases."
+  },
+  "focus": [
+    {
+      "name": "Frontend",
+      "description": "React, Next.js, Tailwind, and responsive user interfaces."
+    },
+    {
+      "name": "Backend",
+      "description": "Laravel, CodeIgniter, and Node.js APIs backed by SQL databases."
+    },
+    {
+      "name": "Decision Systems",
+      "description": "Decision support systems built with methods such as MOORA."
+    }
+  ],
+  "projects": [
+    {
+      "name": "Satu Data NTT",
+      "url": "https://github.com/ronaldlehot",
+      "homepage": "",
+      "focus": "Portal Satu Data Provinsi NTT",
+      "summary": "Portal Satu Data for Nusa Tenggara Timur Province, bringing regional government data together in one place.",
+      "heroLabel": "Provincial data portal"
+    },
+    {
+      "name": "Dashboard Pimpinan",
+      "url": "https://github.com/ronaldlehot",
+      "homepage": "",
+      "focus": "Leadership dashboard",
+      "summary": "A dashboard that gives leaders a clear summary of key data for monitoring and decision making.",
+      "heroLabel": "Leadership dashboard"
+    },
+    {
+      "name": "Sistem Keuangan",
+      "url": "https://github.com/ronaldlehot/Sistem_Keuangan",
+      "homepage": "",
+      "focus": "Laravel + Filament finance system",
+      "summary": "A web finance system with transaction management, financial reports, and an interactive dashboard.",
+      "heroLabel": "Finance system"
+    },
+    {
+      "name": "SPK Wisata Bajawa",
+      "url": "https://github.com/ronaldlehot/spk-rekomendasi-wisata-",
+      "homepage": "",
+      "focus": "Tourism recommendation (SMART)",
+      "summary": "A decision support system that recommends the best tourist spots in Bajawa using the SMART method.",
+      "heroLabel": "Decision support"
+    },
+    {
+      "name": "Hibah & Sosial",
+      "url": "https://github.com/ronaldlehot",
+      "homepage": "",
+      "focus": "Grant and social aid information system",
+      "summary": "An information system for managing grant and social aid: recipient verification, disbursement, and monitoring.",
+      "heroLabel": "Aid management"
+    },
+    {
+      "name": "Inventaris Gereja",
+      "url": "https://github.com/ronaldlehot",
+      "homepage": "",
+      "focus": "Church inventory management",
+      "summary": "An inventory system that tracks church assets, incoming and outgoing items, and stock reports.",
+      "heroLabel": "Inventory system"
+    }
+  ],
+  "techStack": [
+    "JavaScript",
+    "TypeScript",
+    "React",
+    "Next.js",
+    "Laravel",
+    "PHP",
+    "MySQL"
+  ],
+  "links": [
+    {
+      "label": "GitHub",
+      "value": "ronaldlehot",
+      "url": "https://github.com/ronaldlehot",
+      "logo": "github",
+      "color": "0B1220"
+    },
+    {
+      "label": "Instagram",
+      "value": "ronaldlehot",
+      "url": "https://instagram.com/ronaldlehot",
+      "logo": "instagram",
+      "color": "E4405F"
+    }
+  ],
+  "activity": {
+    "enabled": true,
+    "limit": 6
+  },
+  "appearance": {
+    "palette": "signal"
+  },
+  "footer": "Building thoughtful web apps and sharing what works."
+}
