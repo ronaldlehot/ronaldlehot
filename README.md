@@ -26,7 +26,7 @@ const ronaldo = {
   role: "Web Developer",
   from: "Kupang, NTT, Indonesia",
   education: "B.Sc. Computer Science, Universitas Nusa Cendana (2024)",
-  currentlyBuilding: ["Satu Data NTT", "Dashboard Pimpinan"],
+  currentlyBuilding: ["Satu Data NTT", "Dashboard Pimpinan", "SPK", "SI", "and more"],
   currentlyLearning: "new frameworks & languages",
   askMeAbout: ["Web Dev", "APIs", "Databases", "anything tech"],
   reachMe: {
