@@ -60,7 +60,7 @@ function renderAboutCode(config) {
     `  role: "${config.profile.headline}",`,
     `  from: "Kupang, NTT, Indonesia",`,
     `  education: "B.Sc. Computer Science, ${config.profile.affiliation} (2024)",`,
-    `  currentlyBuilding: ["Satu Data NTT", "Dashboard Pimpinan", "SPK", "SI", "and more"],`,
+    `  currentlyBuilding: ["Satu Data NTT", "Dashboard Pimpinan"],`,
     `  currentlyLearning: "new frameworks & languages",`,
     `  askMeAbout: ["Web Dev", "APIs", "Databases", "anything tech"],`,
     "  reachMe: {",
